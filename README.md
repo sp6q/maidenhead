@@ -28,7 +28,7 @@ int main() {
 ### Linux
 ```
 gcc -c maidenhead.c
-ar -crv libmaidenhead.a
+ar -crv libmaidenhead.a maidenhead.o
 # copy libmaidenhead.a to /usr/local/lib and maidenhead.h to /usr/local/include or use it in your project like:
 # gcc -I /path/to/maidenhead -o main main.c /path/to/maidenhead/libmaidenhead.a
 ```
