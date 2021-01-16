@@ -24,6 +24,8 @@ int main() {
 }
 ```
 
+An example is also available for Arduino from the examples menu.
+
 ## Installation
 ### Linux
 ```
