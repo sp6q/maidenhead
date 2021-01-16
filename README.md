@@ -3,10 +3,10 @@ C library for converting between latitude/longitude and Maidenhead locators.
 Supports Maidenhead locators up to 10 characters long, allowing for 13-metre accuracy.
 
 ## Functions
-`get_mh` - Converts latitude/longitude to a Maidenhead locator.
-`complete_mh` - Extends a Maidenhead locator to 10 characters by adding pairs of subsequent squares in the middle of the incomplete locator.
-`mh2lon` - Converts a Maidenhead locator to longitude.
-`mh2lat` - Converts a Maidenhead locator to latitude.
+- `get_mh` - Converts latitude/longitude to a Maidenhead locator.
+- `complete_mh` - Extends a Maidenhead locator to 10 characters by adding pairs of subsequent squares in the middle of the incomplete locator.
+- `mh2lon` - Converts a Maidenhead locator to longitude.
+- `mh2lat` - Converts a Maidenhead locator to latitude.
 
 ## Example
 ```c
