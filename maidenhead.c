@@ -11,7 +11,7 @@ char letterize(int x) {
     return (char) x + 65;
 }
 
-static char* get_mh(double lat, double lon, int size) {
+char* get_mh(double lat, double lon, int size) {
     static char locator[11];
     double LON_F[]={20,2.0,0.083333,0.008333,0.0003472083333333333};
     double LAT_F[]={10,1.0,0.0416665,0.004166,0.0001735833333333333};
@@ -37,7 +37,7 @@ static char* get_mh(double lat, double lon, int size) {
     return locator;
 }
 
-static char* complete_mh(char* locator) {
+char* complete_mh(char* locator) {
     static char locator2[11] = "LL55LL55LL";
     int len = strlen(locator);
     if (len >= 10) return locator;
