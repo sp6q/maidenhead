@@ -1,3 +1,6 @@
+#ifndef ARDUINO
+// Prevent Arduino IDE from compiling this file
+
 #include <stdio.h>
 #include "maidenhead.h"
 
@@ -10,3 +13,5 @@ int main() {
   printf("The latitude of the Eiffel tower is %f, and its longitude is %f\n", lat, lon);
   return 0;
 }
+
+#endif
